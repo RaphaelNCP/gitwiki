@@ -4,7 +4,7 @@ import { InputContainer } from "./styles"
 const Input = ({value, onChange}) => {
     return (
         <InputContainer value={value} onChange={onChange}>
-            <input/>
+            <input placeholder="@user/repository"/>
         </InputContainer>
     )
 }
